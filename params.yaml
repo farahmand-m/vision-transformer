@@ -1,0 +1,67 @@
+#
+s/28:
+  depth: 6
+  heads: 8
+  mlp_width: 1024
+  patch_size: 28
+  width: 256
+s/16:
+  depth: 6
+  heads: 8
+  mlp_width: 1024
+  patch_size: 16
+  width: 256
+S/32:
+  depth: 12
+  heads: 6
+  mlp_width: 1536
+  patch_size: 32
+  width: 384
+Ti/16:
+  depth: 12
+  heads: 3
+  mlp_width: 768
+  patch_size: 16
+  width: 192
+B/32:
+  depth: 12
+  heads: 12
+  mlp_width: 3072
+  patch_size: 32
+  width: 768
+S/16:
+  depth: 12
+  heads: 6
+  mlp_width: 1536
+  patch_size: 16
+  width: 384
+B/28:
+  depth: 12
+  heads: 12
+  mlp_width: 3072
+  patch_size: 28
+  width: 768
+B/16:
+  depth: 12
+  heads: 12
+  mlp_width: 3072
+  patch_size: 16
+  width: 768
+L/16:
+  depth: 24
+  heads: 16
+  mlp_width: 4096
+  patch_size: 16
+  width: 1024
+g/14:
+  depth: 40
+  heads: 16
+  mlp_width: 6144
+  patch_size: 14
+  width: 1408
+G/14:
+  depth: 48
+  heads: 16
+  mlp_width: 8192
+  patch_size: 14
+  width: 1664
