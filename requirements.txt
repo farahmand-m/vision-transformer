@@ -1,6 +1,8 @@
 einops
 matplotlib
 numpy
+pytorch-ignite
+pynvml
 PyYAML
 tensorboard
 torch
