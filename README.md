@@ -76,18 +76,26 @@ There are other optional arguments, as well:
 
 # Evaluation
 
-Run `eval.py`, passing in the name of your target dataset and the name you chose for your experiment during training.
+Run `eval.py` with the same arguments you ran `train.py`. It will use the latest checkpoint to load the weights.
 
 Example:
 
 ```shell
-python eval.py CIFAR-10 alpha 
+python eval.py s/16 CIFAR-10 alpha 
 ```
 
-There are also several optional arguments:
+The optional arguments are limited to:
 
 ```
-  TO DO
+  --cpu-only            When passed in, the GPU will not be used.
+  --image-size          Target size of the images. Defaults to 256.
+  --batch-size          Size of the batches. Defaults to 1024.
+  --num-classes         Number of classes. Defaults to 1000.
+  --checkpoints-dir     Where to store the checkpoint files. Defaults to "checkpoints".
+  --experiments-dir     Where to store the experiments' results. Defaults to "experiments".
+  --log-dir             Target folder for writing TensorBoard logs. Defaults to "logs".
+  --data-dir            Path to the folder containing your locally-stored datasets. Defaults to "data".
+  --test-split          Name of the target subfolder. Used for local datasets. Defaults to "val".
 ```
 
 # Results
