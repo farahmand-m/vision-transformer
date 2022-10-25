@@ -19,7 +19,7 @@ pip install -r requirements.txt
 You can load up any of the architectures listed in *Table 2*. Note that these hyperparameters are intended for the 
 *ImageNet-21k* dataset, and are to be used with 256x256 images and 1024-sample batches.
 
-![Architectures](https://d3i71xaburhd42.cloudfront.net/2a805d0e1b067444a554c5169d189fa1f649f411/7-Table2-1.png)
+![Architectures](https://miro.medium.com/max/640/1*uxTrK8IC_ZdyunpR58lzgQ.png)
 
 # Data
 
